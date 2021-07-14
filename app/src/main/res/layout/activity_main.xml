@@ -7,12 +7,27 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/textView"
+        android:layout_width="179dp"
+        android:layout_height="61dp"
+        android:fontFamily="cursive"
+        android:text="Hola Javier"
+        android:textSize="70px"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.077"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adios Javier"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="678dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
